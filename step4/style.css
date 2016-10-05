@@ -1,0 +1,114 @@
+html, body, header, footer, nav, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  border: 0;
+}
+
+body {
+  background-image: url("images/cave-background.jpg");
+  background-color: black;
+  background-position: center top;
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+
+  width: 650px;
+  margin: 0px auto;
+  margin-bottom: 45px;
+}
+
+header{
+  background-color: #3f3622;
+}
+
+header h1{
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-size: 3em;
+  color: white;
+  padding-bottom:0.2em;
+}
+
+nav{
+  text-align: right;
+  padding-right: 0.5em;
+  padding-top: 0.2em;
+  margin-bottom: 1em;
+  font-family: "Times New Roman", sans-serif;
+}
+
+a:link{
+  /*color: white;*/
+  font-size: 1.1em;
+  margin:0;
+}
+
+header a:link{
+  color: white;
+  font-size: 1.1em;
+  margin:0;
+}
+
+a:visited{
+  color: grey;
+}
+
+#content{
+  background-color: #FFFFFF;
+  margin: 0 auto 2em auto;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+
+#content .box img{
+  padding: 0.6em;
+  border: 0.1em solid;
+  margin-top: 1em;
+}
+
+#content #welcome{
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+div.room {
+  width: 200px;
+  display: inline-block;
+  font-size: 0.9em;
+}
+
+.text-format{
+  font-size: 1.4em;
+}
+
+#arrow-remain{
+  padding: 0.8em 0 0.8em 0;
+}
+
+#italic{
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+#bottom-links{
+   padding-bottom: 0.5em;
+ }
+
+#bottom-links p{
+  padding-top: 0em;
+  padding-bottom: 1em;
+}
+
+#text{
+  text-align: left;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: "Times New Roman", sans-serif;
+}
+
+#hear-message{
+  padding-bottom: 1em;
+  padding-top: 1em;
+}

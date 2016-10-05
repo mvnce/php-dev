@@ -1,0 +1,121 @@
+html, body, header, footer, nav, article, section, figure, figcaption, h1, h2, h3, ul, li, body, div, p, img {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+
+div.game {
+    display: inline-block;
+    margin: 1em auto;
+    border: thin solid black;
+    padding: 1em 0;
+}
+
+div.game div.row {
+    display: block;
+    padding: 0;
+    height: 50px;
+    white-space: nowrap;
+}
+
+div.game div.cell {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    min-height: 50px;
+    min-width: 50px;
+}
+
+.highlight:hover {
+    background-color: aquamarine;
+}
+
+div.cell input {
+    border: 0;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    text-indent: -999px;
+    font-size: 0;
+    line-height: 0;
+    display: block;
+}
+
+body {
+    text-align: center;
+}
+
+/*Player login screen*/
+#login {
+    background-color: cornflowerblue;
+}
+
+#player-login {
+    width: 60%;
+    background-color: white;
+    border-color: black;
+    border-width: thick;
+    border-style: solid;
+    position:absolute;
+    color:#fff;
+    top:50%;
+    left:50%;
+    padding:15px;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+#player-login input {
+    padding: .75em;
+    margin: 1em;
+    width: 40%;
+    font-size: 1em;
+}
+
+#player-login img {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+#player-login label {
+    color: black;
+}
+
+#player-login input[type="radio"] {
+    width: 1em;
+}
+
+/*Player login screen*/
+
+/*Game screen*/
+#game input[type="submit"] {
+    margin: .75em;
+    width: 6em;
+    font-size: 1.2em;
+}
+
+.large-text {
+    font-size: 1.75em;
+    font-weight: bold;
+}
+
+.large-text-alert {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.large-text-error {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: red;
+}
+
+
+/*Game screen*/

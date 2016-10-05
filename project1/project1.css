@@ -1,0 +1,93 @@
+html, body, header, footer, hgroup, nav, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+
+figure {
+    padding-top: 25px;
+}
+body {
+    text-align: center;
+}
+form {
+    margin: auto;
+}
+div.game {
+    display: inline-block;
+    margin: 1em auto;
+    border: thin solid black;
+    padding: 1em 0;
+}
+
+div.game div.row {
+    display: block;
+    padding: 0;
+    height: 50px;
+    white-space: nowrap;
+}
+
+div.game div.cell {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    min-height: 50px;
+    min-width: 50px;
+}
+div.cell input {
+    border: 0;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    text-indent: -999px;
+    font-size: 0;
+    line-height: 0;
+    display: block;
+}
+#piece {
+    margin-right: 1.5em;
+}
+
+input[type=submit] {
+    margin: 1.5em 1.5em .75em 1.5em;
+}
+
+#turns {
+    padding: .25em 0em 1em 0em;
+    font-size: 2em;
+}
+
+div.instructions {
+    border: solid;
+    border-width: thin;
+    margin: .25em 8em 1em 8em;
+    padding: 1em 2em 1em 2em;
+}
+
+div.instructions p {
+    padding: 0em 0em .5em 0em;
+}
+
+p.index-text, p.index-select, p.index-submit, p.index-banner {
+    padding:.5em 0 .5em 0;
+}
+
+p.index-submit input[type=submit] {
+    margin:0 0 0 0;
+}
+
+p.win {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2em;
+    padding:.5em;
+}
+
+.highlight:hover {
+    background-color: #b1ff93;
+}
